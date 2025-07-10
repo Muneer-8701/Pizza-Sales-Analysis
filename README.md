@@ -1,36 +1,85 @@
+# 🍕 Pizza Sales Analysis
 
-# Pizza Sales Analysis PowerBI and SQL Project
+A comprehensive data analysis project on pizza sales using **SQL, Power BI, and Python**. This project aims to extract key business insights, analyze performance trends, and present findings via an interactive dashboard.
 
-## Project Overview
-This project is designed to demonstrate SQL and PowerBI skills and techniques typically used by data analysts to explore and analysis on pizza sales dataset.This project analysis sales trends, customer preferences, and revenue streams through by integrating SQL queries and Power BI dashboards.The project provides actionable insights to help optimize business strategies in the pizza industry.
+## 📊 Project Objective
+
+The goal of this project is to:
+- Analyze historical pizza sales data
+- Identify sales trends, customer behavior, and performance by category/size
+- Provide data-driven insights to improve business decisions
+
+---
+
+## 🛠️ Tools & Technologies
+- **SQL (PostgreSQL)** – for data cleaning & analysis
+- **Power BI** – for creating interactive dashboard
+- **Python (Pandas, Matplotlib, Seaborn)** – For data cleaning, EDA (Exploratory Data Analysis), and preprocessing.
+
+---
+## 📂 Project Structure
+
+```plaintext
+Pizza-Sales-Analysis/
+│
+├── data/
+│   └── pizza_sales.csv
+│
+├── sql/
+│   └── queries.sql
+│
+├── notebook/
+│   └── Pizza_Analysis_in_Python.ipynb
+│
+├── dashboard/
+│   └── Pizza_PowerBI_Dashboard.pbix
+│   └── Pizza_Dashboard.png
+│
+└──  README.md
+```
 
 
-
-
-## Objectives
-
-1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
-2. **Data Cleaning**: Identify and remove any records with missing or null values.
-3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
-
-## Findings
-
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
-
+---
 
 ## Dashboard Screenshot
 ![Dashboard Overview](
 https://github.com/Muneer-8701/Pizza-Sales-Analysis-PowerBI-SQL/blob/2f0298698bd9014157efe07d42e8be9ee1006ef1/Dashboard.png)
-## Reports
 
-- **Sales Trend Report**: Line graphs depicting daily, monthly, and yearly sales.
-- **Category and Size Analysis**: Bar charts for revenue contribution by pizza category.
-    Pie charts for size-wise sales breakdown.
--**Customer Insights**: Reports on top customers and unique customer counts per category.
+---
 
-## Conclusion
-This project serves as a comprehensive introduction to SQL and Power BI for data analysts. The findings from this project can help drive business decisions by understanding sales trends, customer behavior, and  revenue drivers.
+## 📈 Key Metrics (via SQL Queries)
+
+| Metric                     | Value     |
+|---------------------------|-----------|
+| 💰 Total Revenue           | 817.86K   |
+| 📦 Total Orders            | 21,350    |
+| 🍕 Total Pizzas Sold       | 49,574    |
+| 📊 Avg Order Value         | 38.31     |
+
+---
+
+## 📅 Trend Analysis
+
+- **Busiest Days:** Friday, Thursday, and Weekends
+- **Monthly Highs:** January and July have peak order volumes
+
+---
+
+## 🏆 Performance Insights
+
+### 🔹 By Category
+- **Classic** pizzas contributed the **most revenue and orders**
+
+### 🔹 By Size
+- **Large-sized** pizzas made up the **highest sales percentage**
+
+---
+
+
+## 💡 Business Insights
+
+- Offer promotions on **large classic pizzas** to boost profits
+- Add more combos for **weekend evenings**, the busiest time
+- Monitor slow months like **February** for improvement strategies
+
+---
